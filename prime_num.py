@@ -20,5 +20,3 @@ def test_if_is_a_prime(number):
 			return True
 	else:
 		return False
-		
-print (generate_prime_numbers(20))
