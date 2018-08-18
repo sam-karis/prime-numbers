@@ -5,8 +5,8 @@ def generate_prime(n):
         for i in range(2, num):
             if (num % i == 0):
                 break
-            else:
-                is_prime = True
+        else:
+            is_prime = True
         if is_prime:
             prime.append(num)
     return prime
